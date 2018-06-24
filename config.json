@@ -1,0 +1,10 @@
+{
+  "lin_models": {
+    "root_model": "pickles/lin_model_root.pkl",
+    "pay_model": "pickles/lin_model_payment.pkl"
+  },
+  "error_threshold_root": 0.4,
+  "error_threshold_sub": 0.3,
+  "answers_pay": "KB/answers_pay.csv",
+  "answers_default": "KB/answers_default.csv"
+}
