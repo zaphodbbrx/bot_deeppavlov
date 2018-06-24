@@ -11,9 +11,9 @@ from deeppavlov.core.commands.utils import expand_path, set_deeppavlov_root
 from deeppavlov.core.common.file import read_json
 import numpy as np
 from deeppavlov.core.commands.infer import *
-from model.pipeline.embedder import *
-from model.pipeline.CNN_model import *
-from model.pipeline.text_normalizer import *
+from intents.model.pipeline.embedder import *
+from intents.model.pipeline.CNN_model import *
+from intents.model.pipeline.text_normalizer import *
 
 
 class IntentsClassifier():
